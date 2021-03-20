@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Play_Xylophone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="I8x-cV-xTa">
-                                <rect key="frame" x="21" y="0.0" width="982" height="768"/>
+                                <rect key="frame" x="17" y="44" width="341" height="734"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdS-rD-vXd">
-                                        <rect key="frame" x="0.0" y="0.0" width="982" height="107"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="341" height="102.33333333333333"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <state key="normal" title="C">
                                             <color key="titleColor" systemColor="systemRedColor"/>
@@ -30,7 +30,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqQ-lX-Wpy">
-                                        <rect key="frame" x="0.0" y="110" width="982" height="107.5"/>
+                                        <rect key="frame" x="0.0" y="105.33333333333334" width="341" height="102.33333333333334"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <state key="normal" title="D">
                                             <color key="titleColor" systemColor="systemOrangeColor"/>
@@ -40,7 +40,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxD-aM-PiN">
-                                        <rect key="frame" x="0.0" y="220.5" width="982" height="107"/>
+                                        <rect key="frame" x="0.0" y="210.66666666666666" width="341" height="102.33333333333334"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <state key="normal" title="E">
                                             <color key="titleColor" systemColor="systemYellowColor"/>
@@ -50,7 +50,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Jg-vV-7hd">
-                                        <rect key="frame" x="0.0" y="330.5" width="982" height="107"/>
+                                        <rect key="frame" x="0.0" y="316" width="341" height="102"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <state key="normal" title="F">
                                             <color key="titleColor" systemColor="systemGreenColor"/>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYS-gv-lo8">
-                                        <rect key="frame" x="0.0" y="440.5" width="982" height="107"/>
+                                        <rect key="frame" x="0.0" y="421" width="341" height="102.33333333333337"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                         <state key="normal" title="G">
                                             <color key="titleColor" systemColor="systemIndigoColor"/>
@@ -70,7 +70,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAm-Lx-bMZ">
-                                        <rect key="frame" x="0.0" y="550.5" width="982" height="107.5"/>
+                                        <rect key="frame" x="0.0" y="526.33333333333337" width="341" height="102.33333333333337"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <state key="normal" title="A">
                                             <color key="titleColor" systemColor="systemBlueColor"/>
@@ -80,7 +80,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mke-dQ-wdg">
-                                        <rect key="frame" x="0.0" y="661" width="982" height="107"/>
+                                        <rect key="frame" x="0.0" y="631.66666666666663" width="341" height="102.33333333333337"/>
                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                         <state key="normal" title="A">
                                             <color key="titleColor" systemColor="systemPurpleColor"/>
@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1312" y="-31"/>
+            <point key="canvasLocation" x="-1406" y="-163"/>
         </scene>
     </scenes>
     <resources>
